@@ -73,7 +73,7 @@ app.get('/', (req, res) => {
 
 
 
-mongoose.connect('mongodb+srv://absep98:Dashlane_198@cluster0.rdz85ls.mongodb.net/UserData?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://absep98:password@cluster0.rdz85ls.mongodb.net/UserData?retryWrites=true&w=majority')
     .then(() => {
         console.log('DB is connected')
         app.listen(3000, () => {
